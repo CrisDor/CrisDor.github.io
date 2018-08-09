@@ -1,0 +1,182 @@
+@import url(http://fonts.googleapils.com/css?family=Montserrat:400,700);
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('Font/BabesNeue/BebasNeue-Regular.woff2') format('woff2'),
+        url('Font/BabesNeue/BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  color: #555;
+  margin: 0;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+#header {
+  background: linear-gradient(black, #2f2f2f);
+  height: 150px;
+  line-height: 150px;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#header-title {
+  display: block;
+  float: left;
+
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  font-weight: bold;
+
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#header-subtitle{
+  line-height: 105px;
+  float: left;
+  margin-top: 0;
+
+  color:white;
+  font-weight: bold;
+  font-family: "Bebas Neue";
+
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#footer {
+  background: linear-gradient(#2f2f2f, black);
+  padding: 10px 0;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p{
+  color: white;
+}
+
+a{
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#f6a623;
+}
+
+.post, .about{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.post-right{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: right;
+}
+
+.post-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.about{
+  text-align: center;
+}
+
+.post-author span{
+  margin-left: 16px;
+  font-weight: bold;
+}
+
+.post-container-computer{
+  background-image: url(Backgrounds/computer.jpg);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-size: 50%;
+}
+.post-container-computer:hover{
+  background-size: 70%;
+}
+
+.post-container-webdesign{
+  background-image: url(Backgrounds/webdesign.jpg);
+  background-repeat:no-repeat;
+  background-position: left;
+  background-size: 50%;
+}
+.post-container-webdesign:hover{
+  background-size: 70%;
+}
+
+.post-container-photography{
+  background-image: url(Backgrounds/photography.jpg);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-size: 50%;
+}
+.post-container-photography:hover{
+  background-size: 70%;
+}
+/*
+.post-container:nth-child(even){
+  background-color: #f2f2f2;
+}
+*/
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+p{
+  line-height: 1.5;
+}
